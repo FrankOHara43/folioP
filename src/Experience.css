@@ -1,0 +1,34 @@
+.flex {
+    display: flex;
+}
+
+.expList {
+    margin-bottom: 15px;
+}
+
+.dot1 {
+    width: 15px;
+    height: 15px;
+    background-color: #FFD700;
+    border-radius: 50%;
+    /* display: inline-block;  */
+    margin-top: 20x;
+    margin-right: 70px;
+    padding-top: 20px;
+    box-shadow: 0 0 10px #FFD700;
+    vertical-align: middle;
+
+}
+
+.exp-title {
+    font-weight: bold;
+}
+
+.exp-timeline {
+    font-size: 20px
+}
+
+.exp-address {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+}
