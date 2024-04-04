@@ -1,0 +1,148 @@
+/* Resetting margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #05142c;
+  color: #FFFFFF;
+}
+
+/* Add specific styles for links if needed */
+a {
+  color: #FFD700; /* Change link color to gold */
+}
+
+/* Add styles for call-to-action buttons if needed */
+.button {
+  background-color: #4A90E2;
+  color: #FFFFFF;
+}
+
+/* Add styles for other elements using accent colors as needed */
+
+
+/* Styling the header */
+header {
+  display: flex;
+  justify-content: center; /* Center-align content horizontally */
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 20px; 
+}
+
+/* Styling the navigation container */
+header nav {
+ /* Align items vertically */
+  margin-right: 20px;
+}
+
+/* Styling the navigation links */
+header nav a {
+  color: white; /* Set the color of the links */
+  text-decoration: none; /* Remove the underline */
+  margin-right: 20px; /* Add some spacing between the links */
+  transition: opacity 0.3s ease; /* Add transition effect */
+}
+
+/* Dim the navigation links on hover */
+header nav a:hover {
+  opacity: 0.7; /* Reduce opacity on hover */
+}
+
+/* Styling the social icons */
+.social {
+  display: flex;
+  align-items: center; /* Align the icons vertically */
+  margin-left: auto; /* Push icons to the right */
+}
+
+/* Styling individual social icons */
+.social a {
+  margin-left: 20px; /* Add spacing between the icons */
+}
+
+/* Adjust the size of the social icons as needed */
+.social svg {
+  width: 24px;
+  height: 24px;
+  fill: white; /* Set the color of the icons */
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-top: 20px; /* Add margin to create space */
+  margin-bottom: 20px; /* Add margin to create space */
+  align-items: left; /* Align items to the left */
+  text-align: left; 
+}
+
+.experience {
+  display: block;
+  justify-content:left; /* Center horizontally */
+  align-items: left; /* Align items to the left vertically */
+  text-align: left; /* Align text to the left horizontally */
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-top: 20px; /* Add margin to create space */
+  margin-bottom: 20px; /* Add margin to create space */
+  order: 0; /* Change the order to -1 to move ahead of .intro */
+  margin-right: 20px;
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 20px; 
+}
+
+
+.experience-text {
+  color: #d7c3d5; /* Set the text color to a glossy white */
+  background: #05142c;
+  border-radius: 10px; /* Add rounded corners for a glossy effect */
+  margin: 0; /* Add margin for spacing */
+}
+.subtext {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: rgba(255, 255, 255, 0.6); /* Set the color to a faded white */
+  margin-left: 70px; /* Adjust the margin to move it to the right */
+}
+.exp{
+  margin-left:70px;
+  font-weight: bold;
+}
+.timeline{
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 0;
+}
+.experience-text > div:nth-child(2) {
+  margin-top: -5px; /* Adjust the negative margin-top to reduce the space */
+}
+.expList{
+  margin-bottom: 15px;
+}
+.dot {
+  width: 15px; 
+  height: 15px; 
+  background-color: #FFD700; 
+  border-radius: 50%; 
+  display: inline-block; 
+  margin-right: 70px; 
+  box-shadow: 0 0 10px #FFD700; 
+  vertical-align: middle; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
